@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>MIGHTY DUCKS HOCKEY LEAGUE</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- no encerraría la img en un div porque en html todo es un contenedor así que no habría necesidad, como que ensucia el html por gusto -->
+        <img src="./assets/LogoMightyducks-01.png" alt="Logo de MDHL" width="100px" height="100px">
+        
+        <!-- xx h1 dentro del nav no me parece correcto: yo encerraría ambos en un div para poder aplicar display flex -->
+        <div>
+
+            <h1>MIGHTY DUCKS HOCKEY LEAGUE</h1>
+
+            <nav>
+
+                <a href="index.html">Home</a>
+                <span>|</span>
+                <a href="./aboutMDHL.html">About MDHL</a>
+                <span>|</span>
+                <a href="./contact.html">Contact</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+        <img src="./assets/hockey1.jpg" alt="Evento de hockey" width="100px" height="100px">
+        
+        <!-- tampoco aplicaría clases porque se puede hacer con especificidad y sería suficiente -->
+        <div>
+
+            <h2>Upcoming Events</h2>
+
+            <!-- Listas de definición -->
+            <dl>
+                
+                <!-- Término -->
+                <dt><b>August 4</b></dt> 
+            
+                <!-- Definición del término -->
+                <dd>MDSL Fundraiser</dd>
+
+                <dt><b>August 16</b></dt> 
+                <dd>Season Kick-off: Meet the Teams</dd>
+
+                <dt><b>September 1</b></dt> 
+                <dd>First Game of the Season (Check Game Schedule for details)</dd>
+        
+            </dl>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
